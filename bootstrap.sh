@@ -44,6 +44,7 @@ pacaur -S --noconfirm --noedit diakonos \
   rmlint \
   newsbeuter \
   telegram-cli \
+  cylon \
   
 
 curl -sLf https://spacevim.org/install.sh | bash
