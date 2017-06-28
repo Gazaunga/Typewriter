@@ -43,6 +43,8 @@ pacaur -S --noconfirm --noedit diakonos \
   howdoi \
   rmlint \
   newsbeuter \
+  telegram-cli \
+  
 
 curl -sLf https://spacevim.org/install.sh | bash
   
