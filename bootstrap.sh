@@ -47,7 +47,7 @@ pacaur -S --noconfirm --noedit diakonos \
   
 
 curl -sLf https://spacevim.org/install.sh | bash
-  
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
   
 # gems
 
