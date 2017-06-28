@@ -12,3 +12,42 @@ sudo gpasswd -a gazbit video
 #or
 sudo chmod u+s /usr/bin/fbterm
 
+# cli script for pacaur + all cli apps
+pacaur -S --noconfirm --noedit diakonos \
+  screen \
+  neovim \
+  python2-neovim \
+  python-neovim \
+  ruby-neovim \
+  ffmpeg \
+  mplayer \
+  dzen2 \
+  interrobang \
+  ranger \
+  mc \
+  htop \
+  glances \
+  fbterm \
+  tmux \
+  fbv \
+  grub-customizer \
+  fonts-inconsolata v86d \
+  rainbowstream \
+  fontconfig \
+  libjpeg \
+  libungif \
+  libtiff \
+  pandoc \
+  texlive-most \
+  trash-cli \
+  howdoi \
+  rmlint \
+  newsbeuter \
+
+curl -sLf https://spacevim.org/install.sh | bash
+  
+  
+# gems
+
+
+
