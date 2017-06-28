@@ -77,6 +77,8 @@ gem install ruby-doc
 gem install rpg-maker-rgss3
 gem install gepub
 gem install sass
+gem install pry
+gem install ruco
 gem update
 git config --global user.name "Gazaunga"
 git config --global user.email "jeremy.ottley@gmail.com"
