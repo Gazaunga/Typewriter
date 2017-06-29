@@ -53,7 +53,9 @@ pacaur -S --noconfirm --noedit diakonos \
   httping \
   alot-git \
   rtv \
-  neomutt-git
+  neomutt-git \
+  adobe-source-code-pro-fonts \
+  adobe-source-sans-pro-fonts
 
 curl -sLf https://spacevim.org/install.sh | bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
