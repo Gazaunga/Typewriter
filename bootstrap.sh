@@ -46,7 +46,8 @@ pacaur -S --noconfirm --noedit diakonos \
   newsbeuter \
   telegram-cli \
   cylon \
-  task
+  task \
+  zathura
 
 curl -sLf https://spacevim.org/install.sh | bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
