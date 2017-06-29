@@ -57,7 +57,11 @@ pacaur -S --noconfirm --noedit diakonos \
   adobe-source-code-pro-fonts \
   adobe-source-sans-pro-fonts \
   rainbow \
-  source-highlight
+  source-highlight \
+  polkit \
+  lesspipe \
+  colormake-git \
+  prettyping 
 
 curl -sLf https://spacevim.org/install.sh | bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
