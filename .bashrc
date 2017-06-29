@@ -3,6 +3,7 @@
 source .profile
 source .bash_profile
 source .bash_prompt
+source .Xresources
 
 # Ignore duplicate commands, & ignore commands starting with a space.
 export HISTCONTROL=erasedups:ignorespace
