@@ -56,7 +56,8 @@ pacaur -S --noconfirm --noedit diakonos \
   neomutt-git \
   adobe-source-code-pro-fonts \
   adobe-source-sans-pro-fonts \
-  rainbow
+  rainbow \
+  source-highlight
 
 curl -sLf https://spacevim.org/install.sh | bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
