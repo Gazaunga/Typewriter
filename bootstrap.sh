@@ -47,7 +47,13 @@ pacaur -S --noconfirm --noedit diakonos \
   telegram-cli \
   cylon \
   task \
-  zathura
+  zathura \
+  ttf-google-fonts-git \
+  horst \
+  httping \
+  alot-git \
+  rtv \
+  neomutt-git
 
 curl -sLf https://spacevim.org/install.sh | bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
