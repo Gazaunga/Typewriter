@@ -1,4 +1,6 @@
 #!/bin/bash
+# add check for pacaur exists or exit
+
 source ~/Typewriter/.local/bin/.scripts/utils.sh
 
 sudo sh -c "echo uvesafb >> /etc/initramfs-tools/modules"
