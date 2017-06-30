@@ -71,7 +71,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 # rubystrap
 
 #!/bin/bash
-source ~/rubydev/bin/utils/sh
+source ~/.local/bin/.scripts/utils.sh
 e_success "Let's grab Ruby and ruby-docs"
 cd ~
 git clone git://github.com/sstephenson/rbenv.git .rbenv
