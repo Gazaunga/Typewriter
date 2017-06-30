@@ -34,7 +34,7 @@ pacaur -S --noconfirm --noedit diakonos \
   tmux \
   fbv \
   grub-customizer \
-  fonts-inconsolata v86d \
+  ttf-inconsolata-git v86d \
   rainbowstream \
   fontconfig \
   libjpeg \
