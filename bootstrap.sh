@@ -25,12 +25,12 @@ pacaur -S --noconfirm --noedit diakonos \
   ffmpeg \
   mplayer \
   dzen2 \
-  interrobang \
+  interrobang-git \
   ranger \
   mc \
   htop \
   glances \
-  fbterm \
+  fbterm-git \
   tmux \
   fbv \
   grub-customizer \
@@ -38,7 +38,7 @@ pacaur -S --noconfirm --noedit diakonos \
   rainbowstream \
   fontconfig \
   libjpeg \
-  libungif \
+  #libungif \
   libtiff \
   pandoc \
   texlive-most \
@@ -46,7 +46,7 @@ pacaur -S --noconfirm --noedit diakonos \
   howdoi \
   rmlint \
   newsbeuter \
-  telegram-cli \
+  telegram-cli-git \
   cylon \
   task \
   zathura \
