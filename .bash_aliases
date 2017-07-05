@@ -13,3 +13,4 @@ alias n='nano'
 
 alias weather='curl http://wttr.in/hacienda_heights'
 
+alias _='sudo'
