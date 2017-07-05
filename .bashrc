@@ -50,4 +50,4 @@ for term in $TERMLIST; do
 done
 
 # Launch Screen with new invocation of Bash
-[[ $TERM != "screen" ]] && exec screen -q
+#[[ $TERM != "screen" ]] && exec screen -q
