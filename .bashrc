@@ -48,3 +48,6 @@ for term in $TERMLIST; do
         export TERM=$term &&
         break
 done
+
+# Launch Screen with new invocation of Bash
+[[ $TERM != "screen" ]] && exec screen -q
