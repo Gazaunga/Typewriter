@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+model="Lenovo ThinkPad T420"
+cpu="Intel Core i5-2520M @ 4x 3.2GHz"
+gpu="Intel HD Graphics 2000"
+ram="8.0G"
+resolution="$(tr ', ' 'x' < /sys/devices/virtual/graphics/fbcon/subsystem/fb0/device/drm/card0/device/graphics/fb0/virtual_size)"
+os="GNU/Linux"
+kernel="$(uname -s) ($(uname -r))"
+distribution="Gentoo Linux"
+profile="default/linux/amd64/13.0"
+branch="Unstable"
+cc="$(gcc --version | grep gcc)"
+clib="glibc"
+packages="$(find /var/db/pkg/*/* -maxdepth 1 -type d | wc -l)"
+terminal="$TERM"
+shell="$(zsh --version)"
+wm="xmonad"
+bar="xmobar"
+font="tewi"
+
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" \
+'[1;35m         -/oyddmdhs+:.[1;35m              Model:[m '"${model}" \
+'[1;35m    -o[1;37mdNMMMMMMMMNNmhy+[1;35m-`            CPU:[m '"${cpu}" \
+'[1;35m   -y[1;37mNMMMMMMMMMMMNNNmmdhyb[1;35m+-        GPU:[m '"${gpu}" \
+'[1;35m `o[1;37mmMMMMMMMMMMMMNmdmmmmddhhy[1;35m/`      RAM:[m '"${ram}" \
+'[1;35m om[1;37mMMMMMMMMMMMN[1;35mhhyyyo[1;37mhmdddhhhd[1;35mo`    Resolution:[m '"${resolution}" \
+'[1;35m.y[1;37mdMMMMMMMMMMd[1;35mhs++so/s[1;37mmdddhhhhdm[1;35m+`  OS:[m '"${os}" \
+'[1;35m oy[1;37mhdmNMMMMMMMN[1;35mdyooy[1;37mdmddddhhhhyhN[1;35md. Kernel:[m '"${kernel}" \
+'[1;35m  :o[1;37myhhdNNMMMMMMMNNNmmdddhhhhhyym[1;35mMh Distribution:[m '"${distribution}" \
+'[1;35m    .:[1;37m+sydNMMMMMNNNmmmdddhhhhhhmM[1;35mmy Profile:[m '"${profile}" \
+'[1;35m       /m[1;37mMMMMMMNNNmmmdddhhhhhmMNh[1;35ms: Branch:[m '"${branch}" \
+'[1;35m    `o[1;37mNMMMMMMMNNNmmmddddhhdmMNhs[1;35m+`  CC:[m '"${cc}" \
+'[1;35m  `s[1;37mNMMMMMMMMNNNmmmdddddmNMmhs[1;35m/.    Clib:[m '"${clib}" \
+'[1;35m /N[1;37mMMMMMMMMNNNNmmmdddmNMNdso[1;35m:`      Packages:[m '"${packages}" \
+'[1;35m+M[1;37mMMMMMMNNNNNmmmmdmNMNdso[1;35m/-         Terminal:[m '"${terminal}" \
+'[1;35myM[1;37mMNNNNNNNmmmmmNNMmhs+/[1;35m-`           Shell:[m '"${shell}" \
+'[1;35m/h[1;37mMMNNNNNNNNMNdhs++/[1;35m-`              WM:[m '"${wm}" \
+'[1;35m`/[1;37mohdmmddhys+++/:[1;35m.`                 Bar:[m '"${bar}" \
+'[1;35m  `-//////:--.                      Font:[m '"${font}"
