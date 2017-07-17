@@ -1,0 +1,23 @@
+#! /bin/bash
+
+shutdown() {
+    notify-send "Pomodoro ended." -u critical
+    echo " Ø " >  ~/.tmp/timer;
+}
+
+trap shutdown EXIT
+
+seconds=60*25; date1=$((`date +%s` + $seconds)); 
+while [ "$date1" -ge `date +%s` ]; do 
+  echo "$(date -u --date @$(($date1 - `date +%s` )) +%M)" > ~/.tmp/timer;
+  sleep 5
+done
+echo "break" >  ~/.tmp/timer;
+notify-send "Begin break" -u critical
+seconds=60*5; date1=$((`date +%s` + $seconds)); 
+while [ "$date1" -ge `date +%s` ]; do 
+  echo "$(date -u --date @$(($date1 - `date +%s` )) +%M)" > ~/.tmp/timer;
+  sleep 5
+done
+#echo " ■ " >  ~/.tmp/timer;
+echo " Ø " >  ~/.tmp/timer;
