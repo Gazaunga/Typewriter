@@ -34,7 +34,7 @@ pacaur -S --noconfirm --noedit diakonos \
   fontconfig \
   libjpeg \
   #libungif \
-  libtiff \
+  #libtiff \
   pandoc \
   texlive-most \
   trash-cli \
