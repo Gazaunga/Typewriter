@@ -20,6 +20,6 @@ fi
 setterm -blength 0
 setterm -bfreq 0
 
-if [[ ! $TERM =~ screen ]]; then
-    SHELL=tmux fbterm
-fi
+#if [[ ! $TERM =~ screen ]]; then
+#    SHELL=tmux fbterm
+#fi
