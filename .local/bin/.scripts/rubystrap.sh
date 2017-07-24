@@ -21,6 +21,8 @@ gem install thor --no-rdoc --no-ri
 gem install bundler --no-rdoc --no-ri
 gem install colorize --no-rdoc --no-ri
 gem install scriptster --no-rdoc --no-ri
+gem install pry --no-rdoc --no-ri
+gem install script_executor --no-rdoc --no-ri
 
 
 
